@@ -1,0 +1,35 @@
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border-bottom: 1px solid rgb(209, 208, 208);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item-text{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.item-text > i {
+    cursor: pointer;
+}
+.text{
+    padding-left: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.cheked{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.btn-cross{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    width: 30px;
+    outline: none;
+    cursor: pointer;
+    color: rgb(253, 210, 158);
+    font-size: 1.2rem;
+}
+.btn-cross:hover{
+    color: red;
+}

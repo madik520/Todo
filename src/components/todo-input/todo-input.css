@@ -1,0 +1,12 @@
+.input-block{
+    margin: auto;
+}
+.input-block > input {
+    width: 95%;
+    height: 60px;
+    border: 3px solid rgb(255, 153, 221);
+    outline: none;
+    font-size: 1.8rem;
+    padding-left: 20px;
+    font-family: 'Ultra', serif;
+}
